@@ -1,0 +1,316 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    width: 1350px;
+    height: 100%;
+}
+header a{
+    margin-left: 30px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.menu{
+align-items: center;  
+}
+.menu ul li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-flex;
+    margin-top: 10px;
+    }
+.menu ul li a{
+    color: black;
+    font-weight: 500;
+}
+mark{
+    color: crimson;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+mark:hover{
+    background-color: black;
+    color: #fff;  
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 208, 0);  
+    
+}
+.icons a i{
+    color: black; 
+}
+.icons span{
+    border-radius: 20px 20px;
+    background-color: #fff;
+    padding: 10px 13px;
+}
+.content1{
+background: url(vip.webp) no-repeat center;
+width: 100%;
+background-size: cover;
+height: 450px;
+color: #fff;
+display: flex;
+justify-content: space-between;
+}
+.elon{
+    padding: 30px 134px;
+}
+.elon p{
+    margin: 20px 0px 40px 0px;
+} 
+.elon a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: 600;
+    }
+.elon i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.elon a{
+    background-color: rgb(255, 255, 255);
+    padding: 13px 20px;
+    border-radius: 4px;
+}
+.elon a:hover{
+    background-color: black ;
+    color: #fff;
+}
+.sana p{
+    background-color: rgb(7, 67, 179);
+    width: 200px;
+    height: 30px;
+    border-radius: 4px;
+}
+.container1 ul{
+    list-style: none;
+    display: inline-flex;  
+}
+.container1 ul li{
+    margin: 20px;
+    font-size: 12px;  
+}
+.container1{
+    text-align: center;
+    margin-top: 15px;
+    }
+.container1 a{
+    text-decoration: none;
+    color: black;
+}
+.container1 a:hover{
+    color: blue;
+}
+.recommend{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px; 
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    margin-top: 20px; 
+   display: flex;
+   overflow-x: scroll;
+}
+
+.flash img{
+    transition: all ease 0.7s;
+}
+.flash img:hover{
+    transform: scale(1.2);
+}
+.add{
+    margin: 5px 0px 0px 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.add a{
+    text-decoration: none;
+    color: black;
+}
+.add i{
+    margin-right: 17px;
+    color: red;
+    font-weight: bold;
+}
+.nomi{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    
+}
+.cost i{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 900;
+     
+}
+.flash button{
+    color: black;
+    background-color: rgb(253, 126, 42);
+    width: 19rem;
+    padding: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.flash button:hover{
+    background-color: #fff;
+    border-color: rgb(253, 126, 42);
+}
+.satr{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.cookies{
+    width: 90%;
+    height: 100px;
+    background-color: rgb(197, 227, 247);
+    border-radius: 50px;
+    margin-left: 70px;
+    text-align: center; 
+    margin-bottom: 80px;
+}
+.cookies a{
+    margin: 10px;
+}
+.popular{
+    text-align: center;
+    margin: 20px;
+}
+.popular h5{
+    margin-top: 20px;
+}
+.popular a{
+    color: black;
+}
+.popular a i{
+    margin-left: 10px;
+}
+.mostpopular{
+    width: 100%;
+    height: 450px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: 20px;
+   
+}
+.mostname{
+    margin-left: 40px;
+}
+.dtray{
+width: 100%;
+height: 420px;
+background: url(3d.jpg) no-repeat center;
+text-align: right;
+align-items: center;
+color: black;
+margin-bottom: 100px;
+}
+.dtray div{
+    padding-top: 140px;
+    padding-right: 100px;
+}
+.dtray p{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 15px 0px 40px;
+}
+.dtray a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.dtray i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.dtray span{
+    background-color: black;
+    padding: 13px 20px;
+    border-radius: 4px;
+}
+.dtray span:hover{
+    background-color: #fff;
+    color: black;
+}
+.glego{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(231, 1, 1);
+    align-items: center;
+    color: black;
+    margin-bottom: 80px;
+}
+.glego div{
+    padding-left: 80px;
+}
+.glego p{
+    font-size: 18px;
+    font-weight: 400;
+    margin: 15px 0px 40px;
+}
+.glego a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.glego i{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.glego span{
+    background-color: black;
+    padding: 13px 20px;
+    border-radius: 4px;
+}
+.glego span:hover{
+    background-color: #fff;
+    color: black;
+}
+.glego{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    width: 100%;
+    height: 755px;
+    background-color: rgb(36, 29, 68);
+}
+.follow{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+}
+.white a i{
+    font-size: 30px;
+    margin-top: 10px;
+    margin: 5px;
+}
+.policy{
+    margin-top: 100px;
+}
+.policy a{
+    text-decoration: none;
+    margin: 100px 0px 0px 20px;
+    font-size: 14px;
+}
+.policy p{
+    font-size: 12px;
+    margin: 20px 0px 0px 20px;
+}
+.author{
+    color: red;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+
+
